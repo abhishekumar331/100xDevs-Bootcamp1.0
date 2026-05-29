@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left {
+    flex: 1;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 52px;
+    line-height: 1.1;
+    margin: 0 0 40px 0;
+    font-weight: 700;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.features li {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.features li span {
+    margin-right: 15px;
+    font-size: 28px;
+}
+
+.trusted {
+    font-size: 18px;
+    margin: 0 0 30px 0;
+    opacity: 0.9;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+
+.logos img {
+    height: 55px;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(1.2);
+}
+
+.ratings {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.ratings span {
+    color: #FFD700;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.right {
+    flex: 1;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0 0 12px 0;
+    font-weight: 700;
+}
+
+.subtext {
+    font-size: 17px;
+    margin: 0 0 40px 0;
+    opacity: 0.85;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+input {
+    padding: 14px 16px;
+    border: 1px solid #D0D0D0;
+    border-radius: 6px;
+    font-size: 17px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #A0A0A0;
+}
+
+.form-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 12px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #808080;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.progress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.progress div {
+    height: 4px;
+    width: 40px;
+    border-radius: 4px;
+}
+
+.progress .filled {
+    background-color: #000000;
+}
+
+.progress .empty {
+    background-color: #c0c0c0;
+}
